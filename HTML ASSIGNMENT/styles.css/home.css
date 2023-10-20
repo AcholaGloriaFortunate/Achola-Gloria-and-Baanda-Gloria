@@ -1,0 +1,66 @@
+body {
+    background-image: url(../images/iiiii.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: azure;
+}
+
+h2 {
+    color: #ff700f;
+}
+
+
+.menu-item{
+    background-color: #f8f8f8;
+    border: 1px solid;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+
+}
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 25px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.button {
+    background-color: #ff6600;
+    color: white;
+    padding: 30px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.price {
+    font-weight: bold;
+    color: #ff6600;
+}
