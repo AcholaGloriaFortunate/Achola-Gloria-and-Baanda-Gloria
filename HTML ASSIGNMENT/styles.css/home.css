@@ -1,35 +1,45 @@
 body {
-    background-image: url(../images/iiiii.jpeg);
+    background-image: url(../images/fruit\ bg.avif);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
 }
 
 h1, h2 {
     font-family: sans-serif;
+    font-size: large;
 }
 
 header{
-    background-color: #333;
-    color: azure;
+    font-size: xx-large;
+    background-color: solid;
+    color: #ff700f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;    
 }
 
 h2 {
     color: #ff700f;
+    font-size: xx-large;
 }
 
-
 .menu-item{
-    background-color: #f8f8f8;
+    background-color: #615d5d;
     border: 1px solid;
     padding: 20px;
     width: 200px;
     text-align: center;
-
+    font-size: larger;
 }
+
 .menu-item img {
     max-width: 100%;
     height: auto;
@@ -40,7 +50,13 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    padding: 25px;
+    padding: 25px;   
+}
+
+h1 {
+    color: #ff700f;
+    text-align: center;
+    font-size: xx-large;
 }
 
 img {
@@ -49,13 +65,13 @@ img {
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.2;
     text-align: justify;
 }
 
 .button {
     background-color: #ff6600;
-    color: white;
+    color: #ff700f;
     padding: 30px 30px;
     border: none;
     border-radius: 5px;
@@ -64,3 +80,5 @@ p {
     font-weight: bold;
     color: #ff6600;
 }
+
+

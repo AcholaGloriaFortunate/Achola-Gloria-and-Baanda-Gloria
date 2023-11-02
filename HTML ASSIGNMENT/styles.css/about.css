@@ -1,0 +1,14 @@
+body {
+    background-image: url(../images/fruit\ bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    color: #ff700f;
+}
+
